@@ -304,11 +304,51 @@ button:hover {
     width: 100%;
   }
 
-  body {
-    background-color: red;
-  }
-
   header {
     flex-wrap: wrap;
+  }
+
+  header nav {
+    width: 760px;
+    padding: 10px 30px;
+  }
+
+  header .logo {
+    order: -1;
+    display: block;
+    margin: 10px auto 0;
+    padding-bottom: 20px 0;
+  }
+
+  h1.cta {
+    margin: -20px 0 0 160px;
+  }
+
+  button {
+    margin: 120px 300px;
+  }
+
+  .code-image {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+
+  img.middle-img {
+    width: 100%;
+    margin: -18px auto;
+  }
+
+  .top-section {
+    width: 100%;
+    margin: -110px 2px 62px;
+    border-top: 1px solid black;
+  }
+
+  .bottom-section {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    padding: 15px 0 160px;
   }
 }
