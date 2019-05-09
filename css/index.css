@@ -298,7 +298,7 @@ button:hover {
 }
 
 /* Media Queries */
-
+/* Tablet */
 @media (max-width: 800px) {
   .container {
     width: 100%;
@@ -322,10 +322,12 @@ button:hover {
 
   h1.cta {
     margin: -20px 0 0 160px;
+    padding: 80px 0 80px 80px;
   }
 
-  button {
-    margin: 120px 300px;
+  div.button {
+    width: 100%;
+    margin: -79px 100px;
   }
 
   .code-image {
@@ -340,15 +342,82 @@ button:hover {
     margin: -18px auto;
   }
 
-  .top-section {
+  div.top-section {
     width: 100%;
-    margin: -110px 2px 62px;
+    margin: -110px 0 62px;
     border-top: 1px solid black;
   }
 
-  .bottom-section {
+  div.bottom-section {
     border-bottom: 1px solid black;
     margin-top: 10px;
-    padding: 15px 0 160px;
+    padding: 15px 0 260px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    justify-content: center;
+  }
+
+  header nav {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav a {
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav a:first-child {
+    border-top: 1px solid gray;
+  }
+
+  header .logo {
+    order: -1;
+    display: block;
+    margin: 20px 0;
+    padding-bottom: 20px 0;
+  }
+
+  h1.cta {
+    margin: 10px 0;
+    flex-flow: column;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  div.button {
+    margin: -90px -40px;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+
+  footer {
+    margin-top: 40px;
   }
 }
