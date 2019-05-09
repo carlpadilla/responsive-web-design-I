@@ -320,14 +320,15 @@ button:hover {
     padding-bottom: 20px 0;
   }
 
-  h1.cta {
-    margin: -20px 0 0 160px;
-    padding: 80px 0 80px 80px;
+  div.title {
+    width: 100%;
+    /* margin: -20px 0 0 160px;
+    padding: 80px 0 80px 80px; */
   }
 
   div.button {
     width: 100%;
-    margin: -79px 100px;
+    margin: -100px 75px 0;
   }
 
   .code-image {
@@ -390,15 +391,12 @@ button:hover {
     padding-bottom: 20px 0;
   }
 
-  h1.cta {
-    margin: 10px 0;
-    flex-flow: column;
-    align-items: center;
-    padding-left: 100px;
+  div.title {
+    width: 100%;
   }
 
   div.button {
-    margin: -90px -40px;
+    margin: -90px -10px;
   }
 
   .top-section {
