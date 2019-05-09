@@ -197,6 +197,7 @@ hr {
 /*************** Call to Action ****************/
 
 div.heading {
+  width: 100%;
   height: 500px;
   padding-bottom: 150px;
 }
@@ -230,10 +231,6 @@ button {
   border-radius: 3px;
   margin-left: 200px;
   padding: 6px 25px;
-}
-
-div.button {
-  margin-top: -150px;
 }
 
 button:hover {
@@ -322,13 +319,14 @@ button:hover {
 
   div.title {
     width: 100%;
-    /* margin: -20px 0 0 160px;
-    padding: 80px 0 80px 80px; */
   }
 
-  div.button {
-    width: 100%;
-    margin: -100px 75px 0;
+  .cta {
+    margin: 0 auto;
+  }
+
+  button {
+    margin: 0 auto;
   }
 
   .code-image {
@@ -345,14 +343,14 @@ button:hover {
 
   div.top-section {
     width: 100%;
-    margin: -110px 0 62px;
+    margin: -50px 0 62px;
     border-top: 1px solid black;
   }
 
   div.bottom-section {
     border-bottom: 1px solid black;
     margin-top: 10px;
-    padding: 15px 0 260px;
+    padding: 35px 0 150px;
   }
 }
 
@@ -393,10 +391,12 @@ button:hover {
 
   div.title {
     width: 100%;
+    :auto ;
   }
 
-  div.button {
-    margin: -90px -10px;
+  button,
+  .cta {
+    margin: 0 auto;
   }
 
   .top-section {
@@ -407,12 +407,13 @@ button:hover {
     margin: 20px 0;
   }
 
-  .bottom-section {
+  div.bottom-section {
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 20px 0;
-    margin: 20px 0;
+    margin-top: 10px;
+    padding: 35px 0 300px;
+    margin: 40px auto;
   }
 
   footer {
